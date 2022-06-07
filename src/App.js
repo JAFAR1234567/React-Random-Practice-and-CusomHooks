@@ -1,9 +1,12 @@
-import Title from './components/Title';
+import FetchData from "./components/Hooks/FetchData";
+
+
+
 function App() {
   return (
-    <main>
-      <Title />
-    </main>
+    <div>
+     < FetchData/>
+    </div>
   );
 }
 

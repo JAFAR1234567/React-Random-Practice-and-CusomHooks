@@ -1,0 +1,27 @@
+.formGroup{
+    margin: 25px; 
+    display: flex;
+    flex-direction: column;
+}
+.formGroup input,button{
+    padding: 10px;
+    border-radius: 7px;
+    outline: none;
+    font-size: 18px;
+}
+.form{
+    width: 500px;
+    height: 500px;
+    box-shadow: 0 0 15px 1px  rgba(233, 223, 223, 0.925);
+   padding:20px 50px;
+   border-radius: 7px;
+
+}
+.container{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+h2{
+    text-align: center;
+}
