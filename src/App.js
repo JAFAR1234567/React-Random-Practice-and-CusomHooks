@@ -1,11 +1,9 @@
-import FetchData from "./components/Hooks/FetchData";
-
-
+import Home from "./todoApp/Home";
 
 function App() {
   return (
     <div>
-     < FetchData/>
+    <Home/>
     </div>
   );
 }
